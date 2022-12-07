@@ -10,6 +10,6 @@ export class AppComponent {
   isShow = true;
   clickme() {
     this.isShow=false;
-    this.name = 'Hey Meena.';
+    this.name = 'Hey Meena';
   }
 }
