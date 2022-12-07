@@ -22,6 +22,6 @@ export class HelloComponent implements OnInit, OnChanges, OnDestroy {
     console.log('On Change call', changes);
   }
   ngOnInit(): void {
-    console.log('On Init call');
+    console.log('On Init call.');
   }
 }
