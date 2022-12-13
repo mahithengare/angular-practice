@@ -8,8 +8,12 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
   isShow = true;
+  firstName = 'Meena';
+  lastName = 'Thengare';
+  a = 8;
+  b = 2;
   clickme() {
-    this.isShow=false;
+    this.isShow = false;
     this.name = 'Hey Meena';
   }
 }
